@@ -1,8 +1,9 @@
 // Shekhar Saxena
 // Section: A  
 // Class Roll No: 49
+// Week 01
 // Problem: linear_search
-// Description: Mentioned in linear_search.md
+// Description: Mentioned in Problem_Description.md
 
 
 #include <bits/stdc++.h>
@@ -17,21 +18,24 @@ void linear_search(ll arr[], ll size, ll key){
 	for(ll i = 0; i < size; i++){
 		comparisons++;
 		if(arr[i] == key){
-			index = i;
+			cout << "Present " << comparisons << "\n";
+            index = i;
 			break;
 		}
 	}
-
-	cout << index << " " << comparisons << "\n";
+    if(index < 0){
+        cout << "Not Present " << comparisons << "\n";
+    }
 }
 
 void solve(){
     ll size, key;
-	cin >> size >> key;
+	cin >> size;
 	ll arr[size];
 	for(ll i = 0; i < size; i++){
 		cin >> arr[i];
 	}
+    cin >> key;
 
 	linear_search(arr, size, key);
 }
