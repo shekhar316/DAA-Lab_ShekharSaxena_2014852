@@ -13,6 +13,7 @@
 * Submitted To : Mr. Deepak Uniyal
 
 ## Week 0:
+* Setting up git and repository
 * Linear Search
 
 
