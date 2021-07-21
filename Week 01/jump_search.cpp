@@ -2,7 +2,7 @@
 // Section: A
 // Class Roll No: 49
 // Week 01
-// Problem: binary_search
+// Problem: jump_search
 // Description: Mentioned in Problem_Description.md
 
 #include <bits/stdc++.h>
