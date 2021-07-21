@@ -14,3 +14,9 @@
 
 ## Week 0:
 * Linear Search
+
+
+## Week 1:
+* Linear Search
+* Binary Search
+* Jump Search
