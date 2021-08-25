@@ -51,7 +51,7 @@ Inversions: 54
 &nbsp;&nbsp;
 
 
-> # Problem 02: Quick Sort
+> # Problem 02: Quick Sort with Random Pivoting
 
 ## Problem Statement: 
 Given an unsorted array of integers, design an algorithm and implement a program to sort this array by partition the array into two sub parts based on the pivot element such that one part will hold the values less than pivot element and other will hold values greator than pivot element. Pivot element should be selected randomly from array. Your program should also find number of comparisions and swaps during the sorting.
@@ -101,7 +101,7 @@ No. of comparisions and swaps depends on randomly selected pivot.
 ```
 &nbsp;&nbsp;
 
-> # Problem 03: Whether duplicates are present or not
+> # Problem 03: kth smallest element in unsorted array
 
 ## Problem Statement: 
 Given an unsorted array of integers, design an algorithm and implement it using a program to find kth smallest or greatest element in array (Time Complexity = O(n)
