@@ -2,7 +2,7 @@
 // Section: A
 // Class Roll No: 49
 // Week 01
-// Problem: jump_search
+// Problem: binary_search
 // Description: Mentioned in Problem_Description.md
 
 #include <bits/stdc++.h>
@@ -10,28 +10,28 @@ using namespace std;
 
 #define ll long long int
 
-void jump_search(ll arr[], ll size, ll key)
-{
+void binary_search(ll arr[], ll left, ll right, ll key){
     ll comparisons = 0;
     ll index = -1;
-    ll blockSize = sqrt(size);
-    ll right = blockSize;
-    ll left = 0;
+    ll mid;
 
-    while (arr[right] <= key && right < size)
-    {
-        comparisons++;
-        left = right;
-        right = right + blockSize;
-        if (right > size - 1)
-            right = size;
-    }
+    while (right >= left){
+        mid = (left + right) / 2;
 
-    for (int i = left; i < right; i++){
-        if (arr[i] == key){
+        if (arr[mid] < key){
+            left = mid + 1;
             comparisons++;
+        }
+
+        if (arr[mid] > key){
+            right = mid - 1;
+            comparisons++;
+        }
+
+        if (arr[mid] == key){
+            comparisons++;
+            index = mid;
             cout << "Present " << comparisons << endl;
-            index = i;
             return;
         }
     }
@@ -39,8 +39,7 @@ void jump_search(ll arr[], ll size, ll key)
     cout << "Not Present " << comparisons << endl;
 }
 
-void solve()
-{
+void solve(){
     ll size, key;
     cin >> size;
     ll arr[size];
@@ -50,11 +49,10 @@ void solve()
     }
     cin >> key;
 
-    jump_search(arr, size, key);
+    binary_search(arr, 0, size - 1, key);
 }
 
-int main()
-{
+int main(){
 // Setting up Input/ Output
 #ifndef ONLINE_JUDGE
     freopen("input.txt", "r", stdin);

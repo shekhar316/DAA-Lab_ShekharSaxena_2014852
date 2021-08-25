@@ -1,3 +1,12 @@
+// Shekhar Saxena
+// Section: A
+// Class Roll No: 49
+// University Roll No: 2014852
+// Subject: Week 02
+// Problem: find key and its duplicates
+// Description: Mentioned in README.md
+
+
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long int
