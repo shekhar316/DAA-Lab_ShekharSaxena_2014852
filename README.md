@@ -6,11 +6,11 @@
 
 | Name | Shekhar Saxena |
 | :---  | :---     |
-| Class Roll No | 49
 | University Roll No | 2014852 |
 | Section | A |
+| Class Roll No | 49 |
 | Semester | 5TH |
-| Branch | Computer Science & Engineering |
+| Course | B.Tech. (CSE) |
 | Subject | Design and Analysis of Algorithm |
 | Subject Code | PCS 505 |
 | Submitted To | Mr. Deepak Uniyal |
