@@ -1,6 +1,6 @@
 # Design and Analysis of Algorithm (DAA Lab - PCS 505)
-
-
+> ## Lab Work and Assignments
+&nbsp;
 ## Submission Details :
 
 
@@ -14,5 +14,3 @@
 | Subject | Design and Analysis of Algorithm |
 | Subject Code | PCS 505 |
 | Submitted To | Mr. Deepak Uniyal |
-
-
