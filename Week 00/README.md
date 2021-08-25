@@ -1,6 +1,8 @@
-# Week 00: 
+# DAA Lab PCS 505: Week 00: 
 
-> # Linear Search
+> # Problem: Linear Search
+
+&nbsp;&nbsp;
 
 ## Problem Statement: 
 Given an array of nonnegative integers, design a linear algorithm and implement it using a program to find whether a given key element is present in the array or not. Also, find the total number of comparisons for each input case. (Time Complexity = O(n), where n is the size of input).
