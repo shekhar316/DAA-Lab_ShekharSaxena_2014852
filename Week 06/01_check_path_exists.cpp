@@ -2,9 +2,7 @@
 // Section: A
 // Class Roll No: 49
 // University Roll No: 2014852
-// Subject: Week 01
-// Problem: binary_search
-// Description: Mentioned in Problem_Description.md
+
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -67,10 +65,10 @@ void solve() {
 
 int main() {
     // Setting up Input/ Output
-    // #ifndef ONLINE_JUDGE
-    // freopen("input.txt", "r", stdin);
-    // freopen("output.txt", "w", stdout);
-    // #endif
+    #ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+    #endif
 
     // Driver Code
     ll t;
